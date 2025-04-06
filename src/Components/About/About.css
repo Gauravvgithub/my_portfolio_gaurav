@@ -45,7 +45,6 @@
     gap: 20px;
 }
 .about-skill{
-    display: flex;
     gap: 50px;
     align-items: center;
     transition: 0.3s;
@@ -55,13 +54,12 @@
     font-size: 24px;
     font-weight: 500;
 }
-.about-skill hr{
-    outline: none;
-    border: none;
-    width: 50%;
-    height: 8px;
-    border-radius: 50px;
-    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+p span{
+    color: #df8908;
+    font-size: medium; 
+}
+p span:hover{
+    color: #b415ff;
 }
 .about-achievements{
     display: flex;

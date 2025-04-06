@@ -12,7 +12,11 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={about_profile_img} alt="profile-image" style={{width:"400px", height:"538px"}} />
+          <img
+            src={about_profile_img}
+            alt="profile-image"
+            style={{ width: "30rem", height: "50rem" }}
+          />
         </div>
         <div className="about-right">
           <div className="about-para">
@@ -33,20 +37,54 @@ const About = () => {
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
+              <h2 style={{textAlign:"center"}}>My Performance</h2>
             </div>
+          </div>
+          <div className="about-skills">
             <div className="about-skill">
-              <p>React JS</p>
-              <hr style={{ width: "70%" }} />
+              <p>HTML & CSS <span>Tailwind and BootStrap</span> </p>
+              <div className="progress">
+                <div
+                  className="progress-bar progress-bar-striped progress-bar-animated"
+                  role="progressbar"
+                  style={{ width: "90%", backgroundColor: "#b415ff"}}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
             </div>
             <div className="about-skill">
               <p>JavaScript</p>
-              <hr style={{ width: "60%" }} />
+              <div className="progress">
+                <div
+                  className="progress-bar progress-bar-striped progress-bar-animated"
+                  role="progressbar"
+                  style={{ width: "80%", backgroundColor: "#b415ff" }}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
             </div>
             <div className="about-skill">
-              <p>Bootstrap 5</p>
-              <hr style={{ width: "50%" }} />
+              <p>React</p>
+              <div className="progress">
+                <div
+                  className="progress-bar progress-bar-striped progress-bar-animated"
+                  role="progressbar"
+                  style={{ width: "90%", backgroundColor: "#b415ff"}}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -58,7 +96,7 @@ const About = () => {
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>5+</h1>
+          <h1>8+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
       </div>
