@@ -15,7 +15,6 @@ const About = () => {
           <img
             src={about_profile_img}
             alt="profile-image"
-            style={{ width: "30rem", height: "50rem" }}
           />
         </div>
         <div className="about-right">

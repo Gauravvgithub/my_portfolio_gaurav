@@ -10,7 +10,7 @@ const Hero = () => {
       <img
         src={profile_img}
         alt="my_image"
-        style={{ width: "400px", height: "350px", borderRadius:"100%" }}
+        style={{ width: "20rem", height: "18rem", borderRadius:"100%" }}
       />
       <h1>
         <span>I'm Gaurav,</span> frontend developer based in India.
@@ -20,7 +20,7 @@ const Hero = () => {
         in Dice Academy.
       </p>
       <div className="hero-action">
-        <AnchorLink className="anchor-link" offset={50} href="#contact">
+        <AnchorLink className="anchor-link" offset={50} href="#contact" style={{textDecoration:"none", color:"inherit"}}>
           <div className="hero-connect">Connect with me</div>
         </AnchorLink>
         <a
