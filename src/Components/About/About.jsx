@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/about_profile.jpg";
+import about_profile_img from "../../assets/about_profile.png";
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile_img} alt="profile-image" style={{width:"400px", height:"538px"}} />
+          <img src={about_profile_img} alt="profile-image" style={{width:"400px", height:"538px"}} />
         </div>
         <div className="about-right">
           <div className="about-para">

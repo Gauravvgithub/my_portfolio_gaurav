@@ -10,7 +10,7 @@ const Hero = () => {
       <img
         src={profile_img}
         alt="my_image"
-        style={{ width: "320px", height: "320px" }}
+        style={{ width: "400px", height: "350px", borderRadius:"100%" }}
       />
       <h1>
         <span>I'm Gaurav,</span> frontend developer based in India.
