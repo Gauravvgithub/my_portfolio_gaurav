@@ -12,9 +12,9 @@ const MyWork = () => {
             <h1>My latest work</h1>
             <img src={theme_pattern} alt="theme-pattern" />
         </div>
-        <div className="mywork-container">
+        <div className="mywork-container" >
             {mywork_data.map((work,index)=>{
-                return <a key={index} href={work.w_link} target='blank' ><img key={index} src={work.w_img} alt="img" /> </a>
+                return <a key={index} href={work.w_link} target='blank' style={{textDecoration:"none"}}><img key={index} src={work.w_img} alt="img" /><span>{work.w_name}</span></a>
             })}
         </div>
         <a href="https://github.com/Gauravvgithub" target='blank' style={{textDecoration:"none", color:"inherit"}}>

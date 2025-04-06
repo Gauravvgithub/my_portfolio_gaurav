@@ -37,11 +37,20 @@
     border-radius: 20px;
     transition: 0.3s;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .mywork-container img:hover {
     transform: scale(1.10);
     transition: 0.3s;
+}
+
+.mywork-container span{
+    color: white;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mywork-showmore {
