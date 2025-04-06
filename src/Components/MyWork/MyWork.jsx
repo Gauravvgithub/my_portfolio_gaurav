@@ -17,10 +17,12 @@ const MyWork = () => {
                 return <a key={index} href={work.w_link} target='blank' ><img key={index} src={work.w_img} alt="img" /> </a>
             })}
         </div>
-        <div className="mywork-showmore">
-            <p><a href="https://github.com/Gauravvgithub" target='blank'>Show More</a></p>
+        <a href="https://github.com/Gauravvgithub" target='blank' style={{textDecoration:"none", color:"inherit"}}>
+        <div className="mywork-showmore" >
+            <p>Show More</p>
             <img src={arrow_icon} alt="---->" />
         </div>
+        </a>
     </div>
   )
 }
