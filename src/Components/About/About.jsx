@@ -10,6 +10,7 @@ import {
   faJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
+import { faServer } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
@@ -39,46 +40,56 @@ const About = () => {
               and enhance overall functionality.
             </p>
           </div>
+          <h2>My Skills</h2>
+          <div className="about-skills"></div>
           <div className="about-skills">
             <div className="about-skill">
-              <h2 style={{ textAlign: "center" }}>My Skills</h2>
-            </div>
-          </div>
-          <div className="about-skills">
-            <div className="about-skill">
-                <FontAwesomeIcon className="langIcon"
-                  icon={faHtml5}
-                  beatFade
-                  style={{ color: "#e34c26"}}
-                />
+              <FontAwesomeIcon
+                className="langIcon"
+                icon={faHtml5}
+                beatFade
+                style={{ color: "#e34c26" }}
+              />
             </div>
             <div className="about-skill">
-                <FontAwesomeIcon className="langIcon"
-                  icon={faCss3Alt}
-                  beatFade
-                  style={{ color: "#0264e4"}}
-                />
+              <FontAwesomeIcon
+                className="langIcon"
+                icon={faCss3Alt}
+                beatFade
+                style={{ color: "#0264e4" }}
+              />
             </div>
             <div className="about-skill">
-                <FontAwesomeIcon className="langIcon"
-                  icon={faBootstrap}
-                  beatFade
-                  style={{ color: "#8c00ff"}}
-                />
+              <FontAwesomeIcon
+                className="langIcon"
+                icon={faBootstrap}
+                beatFade
+                style={{ color: "#8c00ff" }}
+              />
             </div>
             <div className="about-skill">
-                <FontAwesomeIcon className="langIcon"
-                  icon={faJs}
-                  beatFade
-                  style={{ color: "#FFD43B"}}
-                />
+              <FontAwesomeIcon
+                className="langIcon"
+                icon={faJs}
+                beatFade
+                style={{ color: "#FFD43B" }}
+              />
             </div>
             <div className="about-skill">
-                <FontAwesomeIcon className="langIcon"
-                  icon={faReact}
-                  beatFade
-                  style={{ color: "#0091ff"}}
-                />
+              <FontAwesomeIcon
+                className="langIcon"
+                icon={faReact}
+                beatFade
+                style={{ color: "#0091ff" }}
+              />
+            </div>
+            <div className="about-skill">
+              <FontAwesomeIcon
+                className="langIcon"
+                icon={faServer}
+                beatFade
+                style={{ color: "#38c1fd" }}
+              />
             </div>
           </div>
         </div>
