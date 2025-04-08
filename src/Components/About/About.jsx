@@ -2,6 +2,14 @@ import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import about_profile_img from "../../assets/about_profile.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3Alt,
+  faBootstrap,
+  faJs,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
   return (
@@ -12,10 +20,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img
-            src={about_profile_img}
-            alt="profile-image"
-          />
+          <img src={about_profile_img} alt="profile-image" />
         </div>
         <div className="about-right">
           <div className="about-para">
@@ -36,54 +41,44 @@ const About = () => {
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <h2 style={{textAlign:"center"}}>My Performance</h2>
+              <h2 style={{ textAlign: "center" }}>My Skills</h2>
             </div>
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS <span>Tailwind and BootStrap</span> </p>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "90%", backgroundColor: "#b415ff"}}
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  90%
-                </div>
-              </div>
+                <FontAwesomeIcon className="langIcon"
+                  icon={faHtml5}
+                  beatFade
+                  style={{ color: "#e34c26", fontSize: "75px", marginTop:"10px" }}
+                />
             </div>
             <div className="about-skill">
-              <p>JavaScript</p>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "80%", backgroundColor: "#b415ff" }}
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  80%
-                </div>
-              </div>
+                <FontAwesomeIcon className="langIcon"
+                  icon={faCss3Alt}
+                  beatFade
+                  style={{ color: "#0264e4", fontSize: "75px" , marginTop:"10px"}}
+                />
             </div>
             <div className="about-skill">
-              <p>React</p>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "90%", backgroundColor: "#b415ff"}}
-                  aria-valuenow="25"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                  90%
-                </div>
-              </div>
+                <FontAwesomeIcon className="langIcon"
+                  icon={faBootstrap}
+                  beatFade
+                  style={{ color: "#8c00ff", fontSize: "75px" , marginTop:"10px"}}
+                />
+            </div>
+            <div className="about-skill">
+                <FontAwesomeIcon className="langIcon"
+                  icon={faJs}
+                  beatFade
+                  style={{ color: "#FFD43B", fontSize: "75px", marginTop:"10px" }}
+                />
+            </div>
+            <div className="about-skill">
+                <FontAwesomeIcon className="langIcon"
+                  icon={faReact}
+                  beatFade
+                  style={{ color: "#0091ff", fontSize: "75px" , marginTop:"10px"}}
+                />
             </div>
           </div>
         </div>
