@@ -49,6 +49,10 @@
     align-items: center;
     transition: 0.3s;
 }
+.about-skill .langIcon{
+    font-size: 100px;
+    margin-top: 10px;
+}
 .about-achievements{
     display: flex;
     width: 100%;
@@ -107,10 +111,16 @@
     }
     .about-skill{
         gap: 50px;
+    }
+    .about-skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
-     .about-skill .langIcon{
-        font-size: small;
+    .about-skill .langIcon{
+        font-size: 70px;
+        margin-bottom: 10px;
     }
     .about-achievements{
         justify-content: space-between;

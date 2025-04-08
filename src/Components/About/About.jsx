@@ -49,35 +49,35 @@ const About = () => {
                 <FontAwesomeIcon className="langIcon"
                   icon={faHtml5}
                   beatFade
-                  style={{ color: "#e34c26", fontSize:"50%", marginTop:"10px" }}
+                  style={{ color: "#e34c26"}}
                 />
             </div>
             <div className="about-skill">
                 <FontAwesomeIcon className="langIcon"
                   icon={faCss3Alt}
                   beatFade
-                  style={{ color: "#0264e4", fontSize:"50%",  marginTop:"10px"}}
+                  style={{ color: "#0264e4"}}
                 />
             </div>
             <div className="about-skill">
                 <FontAwesomeIcon className="langIcon"
                   icon={faBootstrap}
                   beatFade
-                  style={{ color: "#8c00ff", fontSize:"50%",  marginTop:"10px"}}
+                  style={{ color: "#8c00ff"}}
                 />
             </div>
             <div className="about-skill">
                 <FontAwesomeIcon className="langIcon"
                   icon={faJs}
                   beatFade
-                  style={{ color: "#FFD43B", fontSize:"50%", marginTop:"10px" }}
+                  style={{ color: "#FFD43B"}}
                 />
             </div>
             <div className="about-skill">
                 <FontAwesomeIcon className="langIcon"
                   icon={faReact}
                   beatFade
-                  style={{ color: "#0091ff", fontSize:"50%",  marginTop:"10px"}}
+                  style={{ color: "#0091ff"}}
                 />
             </div>
           </div>
