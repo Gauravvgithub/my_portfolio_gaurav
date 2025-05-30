@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import resume_gaurav from "../../assets/GAURAV_RESUME_2025.pdf";
+import resume_gaurav from "../../assets/GAURAV-RESUME.pdf";
 
 const Hero = () => {
   return (
