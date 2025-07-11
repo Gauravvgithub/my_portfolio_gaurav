@@ -13,12 +13,11 @@ const Hero = () => {
         style={{ width: "20rem", height: "18rem", borderRadius:"100%" }}
       />
       <h1>
-        <span>I'm Gaurav,</span> frontend developer based in India.
+        <span>I'm Gaurav,</span> Full Stack Developer based in India.
       </h1>
-      <p>
-        I am a frontend developer from Delhi, India with 01 year of experience
-        in Dice Academy.
-      </p>
+      {/* <p>
+        I am a full stack developer from Delhi, India.
+      </p> */}
       <div className="hero-action">
         <AnchorLink className="anchor-link" offset={50} href="#contact" style={{textDecoration:"none", color:"inherit"}}>
           <div className="hero-connect">Connect with me</div>

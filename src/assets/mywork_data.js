@@ -9,6 +9,7 @@ import project8_img from "../assets/project_8.png";
 import project9_img from "../assets/project_9.png";
 import project10_img from "../assets/project_10.png";
 import project11_img from "../assets/project_11.png";
+import project12_img from "../assets/project_12.png";
 
 const mywork_data = [
   {
@@ -76,6 +77,12 @@ const mywork_data = [
     w_name: "Say Hello to, Jarvis",
     w_img: project11_img,
     w_link: "https://gemini-clone-vanilla-js.vercel.app/",
+  },
+  {
+    w_no: 12,
+    w_name: "MERN Auth JWT",
+    w_img: project12_img,
+    w_link: "https://auth-on-mern-stack.vercel.app/login",
   },
 ];
 
